@@ -1,13 +1,14 @@
 {
-    "name": "greenpeace/planet4-chile",
-    "description": "Greenpeace P4 Chile",
-    "license": "MIT",
-    "require": {
-    },
-    "scripts": {
-        "core:language": "wp language core install es_CL; wp language core activate es_CL",
-        "site:custom": [
-            "@core:language"
-        ]
-    }
+  "name": "greenpeace/planet4-chile",
+  "description": "Greenpeace P4 Chile",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-child-theme-chile" : "dev-main"
+  },
+  "scripts": {
+    "core:language": "wp language core install es_CL; wp language core activate es_CL",
+    "site:custom": [
+      "@core:language"
+    ]
+  }
 }
